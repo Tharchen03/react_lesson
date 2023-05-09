@@ -33,6 +33,16 @@ const Home: React.FC = () => {
             </IonToolbar>
           </IonHeader>
 
+          <h1>redirect to Test page</h1>
+          <IonButton href='/test'>TEST PAGE</IonButton>
+
+          <h1>redirect to learn page</h1>
+          <IonButton href='/Learn'>learn PAGE</IonButton>
+          
+
+          <h1>redirect to learn IonGrid</h1>
+          <IonButton href='/IonGrid'>learn IonGrid</IonButton>
+
           <h1> IonActionSheet</h1>
           <IonButton id="open-action-sheet">Open</IonButton>
           <IonActionSheet
@@ -323,8 +333,7 @@ const Home: React.FC = () => {
           <IonChip color="medium">Medium</IonChip>
           <IonChip color="dark">Dark</IonChip>
 
-          <h1>redirect to Test page</h1>
-          <IonButton href='/test'>TEST PAGE</IonButton>
+      
 
           <IonCard>
             <IonCardHeader>
